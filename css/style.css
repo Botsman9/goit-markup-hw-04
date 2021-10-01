@@ -232,18 +232,49 @@ button {
   display: flex;
 }
 
-.slogan {
+.slogan-item {
   margin-right: 30px;
 }
-.slogan:not(:last-child) {
+.slogan-item:not(:last-child) {
   margin-right: 30px;
 }
+
+.slogan-item:nth-child(1)::before {
+  content: '';
+  background-image: url(../svg/antenna.svg);
+}
+
+.slogan-item:nth-child(2)::before {
+  content: '';
+  background-image: url(../svg/astronaut.svg);
+}
+.slogan-item:nth-child(3)::before {
+  content: '';
+  background-image: url(../svg/clock.svg);
+}
+.slogan-item:nth-child(4)::before {
+  content: '';
+  background-image: url(../svg/diagram.svg);
+}
+.slogan-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: var(--section-comand-text-color);
+}
+
 .slogan-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-top: 30px;
   color: var(--title-text-color);
 }
 
@@ -352,11 +383,22 @@ button {
 
 .clients-list {
   margin-top: 50px;
-  width: 1170px;
-  height: 134px;
-  background-color: tomato;
+
+  display: flex;
+  justify-content: space-between;
 }
 
+.clients-item {
+  width: 170px;
+  height: 92px;
+
+  color: #ffffff;
+
+  justify-content: space-between;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
 /* Футер */
 
 .footer {
@@ -452,6 +494,9 @@ button {
 .portfolio-button:focus {
   color: #ffffff;
   background-color: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn {
@@ -502,6 +547,10 @@ button {
   margin-bottom: 30px;
 }
 
+.pic-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .pic-title {
   font-weight: 700;
   font-size: 18px;
