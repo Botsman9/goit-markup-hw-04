@@ -67,7 +67,8 @@ body {
 .comand-title,
 .skils-title,
 .img-title,
-.pic-title {
+.pic-title,
+.clients-title {
   color: var(--title-text-color);
 }
 
@@ -285,7 +286,7 @@ button {
 .comand-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.7;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -332,6 +333,28 @@ button {
   letter-spacing: 0.03em;
 
   padding-top: 10px;
+}
+
+/* Постоянные Клиенты */
+
+.section-clients {
+  padding-top: 94px;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+}
+
+.clients-list {
+  margin-top: 50px;
+  width: 1170px;
+  height: 134px;
+  background-color: tomato;
 }
 
 /* Футер */
