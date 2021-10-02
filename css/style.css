@@ -240,33 +240,6 @@ button {
   margin-right: 30px;
 }
 
-.slogan-item:nth-child(1)::before {
-  content: '';
-  background-image: url(../svg/antenna.svg);
-}
-
-.slogan-item:nth-child(2)::before {
-  content: '';
-  background-image: url(../svg/astronaut.svg);
-}
-.slogan-item:nth-child(3)::before {
-  content: '';
-  background-image: url(../svg/clock.svg);
-}
-.slogan-item:nth-child(4)::before {
-  content: '';
-  background-image: url(../svg/diagram.svg);
-}
-.slogan-item::before {
-  content: '';
-  display: block;
-  height: 120px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  align-items: center;
-  background-color: var(--section-comand-text-color);
-}
 
 .slogan-title {
   font-weight: 700;
@@ -397,7 +370,6 @@ button {
 .clients-item:not(:last-child){
 margin-right: 30px;
 }
-
 .icon {
   width: 170px;
   height: 92px;
