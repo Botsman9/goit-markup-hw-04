@@ -89,6 +89,7 @@ button {
   padding: 94px 0;
 }
 
+
 /* шапка сайта */
 
 .header-nav {
@@ -385,20 +386,26 @@ button {
   margin-top: 50px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.clients-item {
+.clients-item  {
+  margin-right: 30px;
+
+}
+
+.clients-item:not(:last-child){
+margin-right: 30px;
+}
+
+.icon {
   width: 170px;
   height: 92px;
 
-  color: #ffffff;
-
-  justify-content: space-between;
   border: 1px solid #afb1b8;
-  box-sizing: border-box;
   border-radius: 4px;
 }
+
 /* Футер */
 
 .footer {
