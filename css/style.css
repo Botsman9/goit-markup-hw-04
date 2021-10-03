@@ -177,6 +177,9 @@ button {
   display: flex;
   margin-left: auto;
   margin-right: 0;
+
+  display: inline-flex;
+  align-items:flex-start;
 }
 
 .link-gmail {
@@ -185,6 +188,21 @@ button {
   letter-spacing: 0.02em;
   margin-right: 50px;
 }
+
+.icon-header{
+  fill:#757575; 
+
+  margin-right: 10px;
+
+  cursor: pointer;
+
+}
+
+.icon-header:hover,
+.icon-header:focus {
+  fill: var(--accent-color)
+}
+
 .link-phone {
   font-size: 14px;
   line-height: 1.1;
@@ -512,18 +530,11 @@ color: var(--h1andadres-text-color);
 
 .footer-icon-list {
   margin-top: 20px;
- 
 }
+ .footer-icon-item:not(:last-child){
+   margin-right: 10px;
+ }
 
-.icon-footer{
-  fill:#fff;
-}
-.icon-footer:hover,
-.icon-footer:focus {
-  fill:var(--accent-color);
-
-
-}
 /* Portfolio */
 
 /* секция кнопок */
