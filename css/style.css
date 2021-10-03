@@ -215,6 +215,9 @@ button {
   background-color: var(--hero-color);
   text-align: center;
   padding: 200px 0;
+  background-image: url(../images/img-hero.jpg);
+  background-position: center;
+  background-size: 100deg;
 }
 
 .hero-title {
