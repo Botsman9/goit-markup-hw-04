@@ -232,7 +232,7 @@ background-color: #757575;
   rgba(47, 48, 58, 0.4),
   rgba(47, 48, 58, 0.4)
   ),
-  url(../images/img-hero.jpg);
+  url(./images/img-hero.jpg);
   background-position: center;
   
 }
