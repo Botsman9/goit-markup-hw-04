@@ -418,7 +418,7 @@ padding-bottom: 30px;
 
 .icon-comand use {
   
-  ill:#afb1b8;
+  /* ill:#afb1b8; */
 background-color:#ffffff;
  
 }
@@ -429,8 +429,8 @@ background-color:#ffffff;
   height: 44px;
 
 
-:  #afb1b8;
-  ackground-color:#afb1b8;
+ 
+  background-color:#afb1b8;
   border-radius:50%; 
 }
 
@@ -584,6 +584,17 @@ color: var(--h1andadres-text-color);
 }
  .footer-icon-item:not(:last-child){
    margin-right: 10px;
+ }
+
+ .icon-footer{
+   display:flex ;
+   border-radius: 50%;
+
+   fill:  rgba(255, 255, 255, 0.1);
+ }
+
+ .icon-footer:hover {
+background-color: var(--accent-color);
  }
 
 /* Portfolio */
