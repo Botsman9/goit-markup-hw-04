@@ -179,7 +179,7 @@ button {
   margin-right: 0;
 
   display: inline-flex;
-  align-items:flex-start;
+  align-items:baseline;
 }
 
 .link-gmail {
@@ -189,17 +189,18 @@ button {
   margin-right: 50px;
 }
 
+
+
 .icon-header{
   fill:#757575; 
 
   margin-right: 10px;
 
-  cursor: pointer;
 
 }
 
-.icon-header:hover,
-.icon-header:focus {
+.icon-header-link:hover .icon-header,
+.icon-header-link:focus .icon-header{
   fill: var(--accent-color)
 }
 
