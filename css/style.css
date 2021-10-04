@@ -200,8 +200,8 @@ button {
 }
 
 .icon-header-link:hover .icon-header,
-.icon-header-link:focus .icon-header{
-  fill: var(--accent-color)
+.icon-header-link:focus .icon-header {
+  fill: var(--accent-color);
 }
 
 .link-phone {
@@ -398,47 +398,41 @@ border-radius: 4px;
 .comand-network-list {
   display:flex;
   justify-content: center;
+  align-items: center;
  
 padding-top: 16px;
 padding-bottom: 30px;
 }
 
 
-.comand-network-item {
-  width: 44px;
-  height: 44px;
-
-  border-radius:50%; 
-
-
-}
-
 .comand-network-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.icon-comand use {
-  
-  /* ill:#afb1b8; */
-background-color:#ffffff;
- 
-}
 
 .comand-icon-link {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
 
-
- 
-  background-color:#afb1b8;
+  
   border-radius:50%; 
 }
 
-.comand-icon-link:hover,
+.icon-comand {
+  width: 44px;
+height: 44px;
+fill: #ffffff;
+border-radius:50%;
+
+}
+
+.comand-icon-link:hover .icon-comand,
 .comand-icon-link:focus {
   fill: var(--accent-color);
-  background-color:#ffffff;
+  background-color:var(--accent-color);
 }
 
 
